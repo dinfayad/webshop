@@ -1,0 +1,298 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(255, 0, 238);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
+
+.nav:hover {
+    color: black;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px ;
+    font-weight: bold;
+}
+
+.header-right {
+    float: right;
+    color: rgb(0, 0, 0);
+    padding-right: 45px;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+}
+
+header {
+    background-color: #ffffff;
+    width: 90%;
+    height: 70px;
+    padding: 10px;
+    margin-left: 70px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+nav {
+    padding-right: 30px;
+}
+
+
+main {
+    padding: 20px 40px;
+    margin-top: 50px;
+    position: relative;
+}
+
+main h1 {
+    font-size: 70px;
+    color: white;
+    margin: 0;
+}
+
+button {
+    background-color: #ffffff;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    margin-left: 100px;
+}
+
+aside {
+    width: 30%;
+    height: 30%;
+    margin-top: 90px;
+    margin-right: 70px;
+}
+
+aside img {
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    width: 100%;
+    height: 50%;
+    margin-right: 70px;
+}
+
+.image img {
+    width: 30%;
+    height: 30%;
+    margin-left: 40px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+/* section service */
+
+.service {
+    width: 93,5%;
+    height: 45vh;
+    margin-top: 45px;
+    margin-left: -50px;
+    background-color: white;
+}
+
+.service-text h2 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+}
+
+.service-text h3 {
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.service-product {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.box img {
+    width: 120px;
+    height: 120px;
+}
+
+.box h4 {
+    margin-top: 42px;
+    margin-left: 15px;
+}
+
+.box p {
+    margin-left: 15px;
+}
+
+.box {
+    margin-left: 150px;
+    display: flex;
+}
+
+/* section featured */
+
+.featured {
+    width: 93,5%;
+    height: 155vh;
+    margin-left: -50px;
+    background-color: rgb(217, 201, 170);
+}
+
+.featured-text {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+.featured-product {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 215px;
+}
+
+.box2 img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 30px;
+}
+
+.box2-text {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.box2 {
+    margin: 20px 20px;
+}
+
+/* section provide */
+
+.provide {
+    width: 93,5%;
+    height: 55vh;
+    margin-left: -50px;
+    background-color: white;
+}
+
+.provide-items {
+    display: flex;
+    margin-left: 220px;
+}
+
+.p {
+    display: flex;
+}
+
+.provide-image {
+    margin: 70px 60px;
+}
+
+.provide-image img {
+    width: 100%;
+    height: 120%;
+}
+
+.provide-text {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.provide-text h1 {
+    font-size: 30px;
+}
+
+.provide-text p {
+    margin-top: 20px;
+}
+
+button {
+    border: #434343 3px solid;
+    border-radius: 20px;
+}
+
+a:hover {
+    color: white;
+}
+
+.prov {
+    font-size: 13px;
+}
+
+/* footer */
+
+footer {
+    width: 93,5%;
+    height: 52vh;
+    margin-left: -50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.footer {
+    display: flex;
+}
+
+.left-text {
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 70px;
+}
+
+.left-text p {
+    margin-top: 20px;
+}
+
+.center-text {
+    margin-left: 100px;
+}
+
+.center-text h3 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.center2-text {
+    margin-left: 150px;
+}
+
+.center2-text h3 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.right-text {
+    margin-left: 150px;
+}
+
+.right-text h3 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.icon {
+    margin-top: 30px;
+    
+}
